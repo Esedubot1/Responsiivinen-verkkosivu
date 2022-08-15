@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    background-color: rgb(34, 34, 34);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+image {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+td, th {
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.navbar {
+    max-height: 100%;
+    background-color: rgb(38, 38, 38);
+}
+
+.navbar .flex {
+    justify-content: center;
+}
+
+.navbar a {
+    display: block;
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    padding: 11px 0px;
+}
+
+.navbar a:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+.navbar a.active {
+    background-color: rgb(55, 55, 55);
+    border-left: 2px rgb(255, 255, 255) solid;
+}
+
+.taulukko {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    padding: 20px;
+    margin: auto;
+    width: 1100px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+
+.teksti h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.teksti h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.teksti h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.teksti p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.teksti ul {
+    margin-bottom: 10px;
+}
+
+.teksti li {
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.taulukko h1 {
+    font-size: 36px;
+}
+
+@media (max-width: 1120px) {
+    .grid {
+        width: auto;
+    }
+}
